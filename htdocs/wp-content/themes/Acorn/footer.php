@@ -1,5 +1,5 @@
 			<footer class="footer" role="contentinfo">
-                                <img src='<?php echo get_template_directory_uri(); ?>/library/images/logo-foot.png' alt='Acorn logo' />
+                                <img src='<?php echo get_template_directory_uri(); ?>/library/images/logo-foot.jpg' alt='Acorn logo' />
                                 <p class="source-org copyright">Copyright &copy; <?php echo date('Y'); ?> | All Rights Reserved.<br />
 Acorn Agri is managed by Acorn Equity, an authorised financial services provider.</p>
                                 

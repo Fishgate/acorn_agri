@@ -12,7 +12,6 @@
                              data-cycle-next="#next"
                          >
                             <img src="<?php echo get_template_directory_uri(); ?>/library/images/Header2.jpg" alt="Home page feature image" />
-                            <!--<img src="<?php// echo get_template_directory_uri(); ?>/library/images/test.jpg" alt="Home page feature image" />-->
                         </div>
 
                         <!--<span id="prev">&lang;</span>
@@ -26,9 +25,8 @@
                                 data-cycle-prev="#prev"
                                 data-cycle-next="#next"
                             >
-                                <!--<h1>Infrastructure Developments &amp; Engineering</h1>-->
-                                <!--<h1>The Majestic Snow Leopard, King Of The Tundra</h1>-->
                             </div>
+							
                             <div class="floating_home_sidebar">
                                 <h2>Latest News</h2>
                                 <div class='inner_wrap'>
@@ -79,29 +77,11 @@
 
 								</footer>
 
-								<!-- <?php// comments_template(); ?> -->
-
 							</article>
 
-							<?php endwhile; else : ?>
-
-									<article id="post-not-found" class="hentry cf">
-											<header class="article-header">
-												<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-                                                                                        </header>
-											<section class="entry-content">
-                                                                                            <p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-                                                                                        </section>
-										<footer class="article-footer">
-                                                                                    <p><?php _e( 'This is the error message in the page-custom.php template.', 'bonestheme' ); ?></p>
-										</footer>
-									</article>
-
-							<?php endif; ?>
+							<?php endwhile; endif; ?>
 
 						</div>
-
-						<!-- <?php// get_sidebar(); ?> -->
 
 				</div>
 
